@@ -123,8 +123,8 @@ EOF"""))
                         help='print mime text of the message to STDOUT')
 
     args = parser.parse_args()
-    print(args)
-    print()
+    #print(args)
+    #print()
 
     mfs = []
     for f in args.file:
